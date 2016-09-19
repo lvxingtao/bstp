@@ -1,0 +1,272 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	src:url(../fonts/glyphicons-halflings-regular.svg);
+}
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-size:14px;
+	font-family:"微软雅黑";
+}
+li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+.mukenav{
+	padding-top:10px;
+	height:70px;
+}
+.nav_list li{
+	width:72px;
+	height:60px;
+	text-align:center;
+}
+.nav_list li a{
+	color:#07111b;
+	font-size:16px;
+}
+.nav_list li a:hover{
+	color:red;
+}
+.search{
+	margin-left:820px;
+	border-bottom:1px solid #666;
+	width:240px;
+	height:50px;
+	padding-top:20px;
+}
+.search span:hover{
+	color:red;
+}
+.text{
+	border:none;
+}
+.clear{
+	margin-top:-50px;
+}
+.picbox{
+	margin:20px auto;
+	width:1200px;
+	height:460px;
+	position:relative;
+}
+#margin{
+	margin-left:185px;
+}
+.mask{
+	position:absolute;
+	left:0;
+	top:0;
+	width:245px;
+	height:460px;
+	background-color: rgba(7,17,27,.5);
+    opacity: .502;
+	z-index:1;
+}
+.list{
+	position:absolute;
+	left:0;
+	top:0;
+	width:245px;
+	height:460px;
+	z-index:2;
+	padding-top:6px;
+}
+.list ul li{
+	height:65px;
+	padding:0 24px;
+}
+.list ul li a{
+	display: block;
+	color:#fff;
+    padding: 0 8px;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    height: 65px;
+	line-height:65px;
+	text-decoration:none;
+	opacity:1;
+}	
+.list ul li a span{
+	margin-top:25px;
+}
+.list_item{
+	width:690px;
+	height:460px;
+	border:1px solid #CCC;
+	background:#FFF;
+	position:absolute;
+	top:0;
+	left:245px;
+	padding-left:40px;
+	display:none;
+}
+.list_item ul li{
+	display:block;
+}
+.list_item ul li .assort a:hover{
+    color:red;
+}
+.list_item ul li .recommend a:hover{
+    color:red;
+}
+.list_item ul li .assort{
+	width:590px;
+}
+.list_item ul li .assort p{
+	display:block;
+	width:590px;
+	height:70px;
+	line-height:100px;
+	color:red;
+	font-size:16px;
+	font-weight:700;
+}
+.list_item ul li .assort span{
+	display:block;
+	font-weight:700;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+.list_item ul li .assort span a{
+	color: #14191e;
+    line-height: 28px;
+	font-weight:normal;
+	text-decoration:none;
+}
+.mr10{
+	margin:0 10px;
+}
+
+.list_item ul li .recommend{
+	width:590px;
+}
+.list_item ul li .recommend p{
+	display:block;
+	width:590px;
+	height:70px;
+	line-height:100px;
+	color:red;
+	font-size:16px;
+	font-weight:700;
+}
+.list_item ul li .recommend a{
+	display:block;
+	margin-bottom:15px;
+	text-decoration:none;
+	color:#000;
+}
+.a{
+	background:url(../img/be.png);
+	background-size:100%;
+}
+.b{
+	background:url(../img/data.png);
+	background-size:100%;
+}
+.c{
+	background:url(../img/fe.png);
+	background-size:100%;
+}
+.d{
+	background:url(../img/mobile.png);
+	background-size:100%;
+}
+.e{
+	background:url(../img/photo.png);
+	background-size:100%;
+}
+.f{
+	background:url(../img/yjs.png);
+	background-size:100%;
+}
+.g{
+	background:url(../img/yw.png);
+	background-size:100%;
+}
+.content{
+	width:1200px;
+	margin:0 auto;
+}
+.title{
+	line-height: 16px;
+    font-size: 16px;
+    color: #07111b;
+    margin-top: 42px;
+    margin-bottom: 24px;
+}
+.title a{
+	display:block;
+	float:right;
+	color: #07111b;
+	text-decoration:none;
+}
+.title a:hover{
+	color: #14191e;
+}
+.content-item-box{
+	width: 224px;
+    height: 172px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+	margin-right:20px;
+	float:left;
+}
+.content-item-intro{
+	box-sizing: border-box;
+    position: absolute;
+    padding: 0 20px;
+    transition: top .5s;
+    top: 90px;
+    height: 144px;
+    width: 100%;
+	background-image:url(../img/bg-course.png);
+}
+.content-item-intro h3{
+	margin: 0;
+    padding: 16px 0 6px;
+    font-size: 14px;
+    max-height: 40px;
+    overflow: hidden;
+    color: #07111b;
+    line-height: 21px;
+}
+.content-item-intro p{
+	color: #93999f;
+    font-size: 12px;
+    height: 40px;
+    overflow: hidden;
+    line-height: 20px;
+}
+.content-item-bottom{
+	position: absolute;
+    padding: 0 20px;
+    bottom: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 42px;
+    background-color: #fff;
+    color: #93999f;
+    font-size: 12px;
+    line-height: 36px;
+}
+.color-red{
+	color:red;
+}
+.content-item-box:hover .content-item-intro{
+	top:30px;
+}
+.ok{
+	margin-right:0;
+}
+.content1{
+	height:216px;
+}
+.comtent2{
+	height:258px;
+}

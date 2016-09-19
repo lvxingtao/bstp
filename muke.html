@@ -1,0 +1,348 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>慕课网首页</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/muke.css" rel="stylesheet">
+
+</head>
+
+<body>
+<div class="mukenav">
+  <nav class="navbar" role="navigation">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://www.imooc.com">
+          <img src="img/logo.png">
+        </a>
+      </div>
+  
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav nav_list">
+          <li><a href="#">首页</a></li>
+          <li><a href="#">路径</a></li>
+          <li><a href="#">猿问</a></li>
+          <li><a href="#">手记</a></li>
+        </ul>
+        <div class="search">
+          <input type="text" class="text" value="请输入想搜索的内容">
+          <span class="glyphicon glyphicon-search pull-right"></span>
+        </div>
+        <ul class="nav navbar-nav navbar-right clear">
+          <li><a href="#" class="glyphicon glyphicon-phone"></a></li>
+          <li><a href="#">登录</a></li>
+          <li><a href="#">注册</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+</div>
+<div class="picbox">
+  <div id="myCarousel" class="carousel slide"> 
+      <!-- 轮播（Carousel）指标 --> 
+      <ol class="carousel-indicators"> 
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li> 
+          <li data-target="#myCarousel" data-slide-to="1"></li> 
+          <li data-target="#myCarousel" data-slide-to="2"></li> 
+      </ol> 
+      <!-- 轮播（Carousel）项目 --> 
+      <div class="carousel-inner"> 
+          <div class="item active"> 
+              <img src="img/pic1.jpg" alt="First slide"> 
+          </div> 
+          <div class="item"> 
+              <img src="img/pic2.jpg" alt="Second slide"> 
+          </div> 
+          <div class="item"> 
+              <img src="img/pic3.jpg" alt="Third slide"> 
+          </div> 
+      </div> 
+      <!-- 轮播（Carousel）导航 --> 
+      <a class="carousel-control left" href="#myCarousel" 
+          data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" id="margin"></span>  
+      </a> 
+      <a class="carousel-control right" href="#myCarousel" 
+          data-slide="next"> 
+        <span class="glyphicon glyphicon-chevron-right"></span>  
+      </a>
+      <div class="mask"></div>
+      <div class="list">
+        <ul>
+          <li id="a"><a href="#">前端开发<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+          <li id="b"><a href="#">后端开发<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+          <li id="c"><a href="#">移动开发<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+          <li id="d"><a href="#">数据库<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+          <li id="e"><a href="#">云计算&大数据 <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+          <li id="f"><a href="#">运维&测试 <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+          <li id="g"><a href="#">视觉设计<span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+        </ul> 
+      </div>
+      <div class="list_item a">
+        <ul>
+          <li>
+            <div class="assort">
+              <p>分类目录</p>
+              <span>基础：<a href="#">HTML/CSS</a><b class="mr10">/</b><a href="#">JavaScript</a><b class="mr10">/</b><a href="#">JQurey</a></span>
+              <span>进阶：<a href="#">HTML5</a><b class="mr10">/</b><a href="#">CSS3</a><b class="mr10">/</b><a href="#">Node.js</a><b class="mr10">/</b><a href="#">AngularJS</a><b class="mr10">/</b><a href="#">Bootstrap</a><b class="mr10">/</b><a href="#">React</a><b class="mr10">/</b><a href="#">Sass/Less</a><b class="mr10">/</b><a href="#">Vue.js</a><b class="mr10">/</b><a href="#">WebApp</a></span>
+              <span>其他：<a href="#">前端工具</a></span>
+            </div>
+            <div class="recommend">
+              <p>推荐</p>
+              <a href="#">课程 | 如何使用高德JS-API进行基于LBS的开发</a>
+              <a href="#">课程 | Sass进阶篇</a>
+              <a href="#">课程 | 分页页码制作</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="list_item b">
+        <ul>
+          <li>
+            <div class="assort">
+              <p>分类目录</p>
+              <span><a href="#">PHP</a><b class="mr10">/</b><a href="#">Java</a><b class="mr10">/</b><a href="#">Python</a><b class="mr10">/</b><a href="#">C</a><b class="mr10">/</b><a href="#">C++</a><b class="mr10">/</b><a href="#">Go</a><b class="mr10">/</b><a href="#">C#</a></span>
+            </div>
+            <div class="recommend">
+              <p>推荐</p>
+              <a href="#">课程 | 使用wordpress极速建站</a>
+              <a href="#">课程 | 近距离探索memcache缓存</a>
+              <a href="#">课程 | PHP实现手机归属地查询</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="list_item c">
+        <ul>
+          <li>
+            <div class="assort">
+              <p>分类目录</p>
+              <span><a href="#">Android</a><b class="mr10">/</b><a href="#">iOS</a><b class="mr10">/</b><a href="#">Unity 3D</a><b class="mr10">/</b><a href="#">Cocos2d-x</a></span>
+            </div>
+            <div class="recommend">
+              <p>推荐</p>
+              <a href="#">课程 | iOS基础教程之-Camera摄像头</a>
+              <a href="#">课程 | How-old 刷脸神器</a>
+              <a href="#">课程 | Android-打造炫酷进度条</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="list_item d">
+        <ul>
+          <li>
+            <div class="assort">
+              <p>分类目录</p>
+              <span><a href="#">MySQL</a><b class="mr10">/</b><a href="#">MongoDB</a><b class="mr10">/</b><a href="#">Oracle</a><b class="mr10">/</b><a href="#">SQL Server</a></span>
+            </div>
+            <div class="recommend">
+              <p>推荐</p>
+              <a href="#">课程 | 如何使用高德JS-API进行基于LBS的开发</a>
+              <a href="#">课程 | Sass进阶篇</a>
+              <a href="#">课程 | 分页页码制作</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="list_item e">
+        <ul>
+          <li>
+            <div class="assort">
+              <p>分类目录</p>
+              <span><a href="#">大数据</a><b class="mr10">/</b><a href="#">云计算</a><b class="mr10">/</b><</span>
+            </div>
+            <div class="recommend">
+              <p>推荐</p>
+              <a href="#">课程 | 初识机器学习-理论篇</a>
+              <a href="#">课程 | 走进大数据之storm流式计算基础</a>
+              <a href="#">课程 | 云计算 - 引领阿里生态的技术发展之路</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="list_item f">
+        <ul>
+          <li>
+            <div class="assort">
+              <p>分类目录</p>
+              <span><a href="#">测试</a><b class="mr10">/</b><a href="#">Linux</a><b class="mr10">/</b></span>
+            </div>
+            <div class="recommend">
+              <p>推荐</p>
+              <a href="#">课程 | Shell典型应用之nginx和mysql应用状态分析</a>
+              <a href="#">课程 | 用iptables搭建一套强大的安全防护盾</a>
+              <a href="#">课程 | Shell典型应用之系统信息及运行状态获取</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="list_item g">
+        <ul>
+          <li>
+            <div class="assort">
+              <p>分类目录</p>
+             <span><a href="#">Photoshop</a><b class="mr10">/</b><a href="#">Maya</a><b class="mr10">/</b><a href="#">Premiere</a><b class="mr10">/</b><a href="#">ZBrush</a></span>
+            </div>
+            <div class="recommend">
+              <p>推荐</p>
+              <a href="#">课程 | PS入门基础-魔幻调色</a>
+              <a href="#">课程 | “Doge”变化术</a>
+              <a href="#">课程 | Oeasy教你玩转后期剪辑Premiere</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+  </div>
+</div>
+<div class="content">
+  <div class="content1">
+    <div class="title">
+      <span>实战推荐</span>
+      <a href="#">更多&gt;</a>
+    </div>
+    <div class="content-item">
+      <div class="content-item-box">
+        <img src="img/1.jpg" width="100%" height="124px">
+        <div class="content-item-intro">
+          <h3>7天搞定Node.js微信公众号开发</h3>
+          <p>用Koa框架、ES2015新特性及MongoDB数据库，开发微信公众号。</p>
+        </div>
+        <div class="content-item-bottom">
+          <span class="pull-left color-red">￥199.00</span>
+          <span class="pull-right">856人在学</span>
+        </div>
+      </div>
+      <div class="content-item-box">
+        <img src="img/2.jpg" width="100%" height="124px">
+        <div class="content-item-intro">
+          <h3>前端到后台ThinkPHP开发</h3>
+          <p>整站用PHP+MySQL+Ajax，页面静态化、数据库备份技术实现你“小全栈”梦想。</p>
+        </div>
+        <div class="content-item-bottom">
+          <span class="pull-left color-red">￥128.00</span>
+          <span class="pull-right">1372人在学</span>
+        </div>
+      </div>
+    
+      <div class="content-item-box">
+        <img src="img/3.jpg" width="100%" height="124px">
+        <div class="content-item-intro">
+          <h3>Yii2.0全力出击打造完整电商平台</h3>
+          <p>完整电商业务流程详解、企业级实战开发环境，购物、下单、支付、收货......各功能模块逐一开发，打造一个京东模式电商平台</p>
+        </div>
+        <div class="content-item-bottom">
+          <span class="pull-left color-red">￥268.00</span>
+          <span class="pull-right">337人在学</span>
+        </div>
+      </div>
+    
+    
+      <div class="content-item-box">
+        <img src="img/4.jpg" width="100%" height="124px">
+        <div class="content-item-intro">
+          <h3>飞速上手的跨平台App开发</h3>
+          <p>最具潜力的HTML5移动App开发框架Ionic，天然的跨平台属性，通吃Android及iOS，简洁、易用，让你飞速上手</p>
+        </div>
+        <div class="content-item-bottom">
+          <span class="pull-left color-red">￥88.00</span>
+          <span class="pull-right">761人在学</span>
+        </div>
+      </div>
+    
+    
+      <div class="content-item-box ok">
+        <img src="img/5.jpg" width="100%" height="124px">
+        <div class="content-item-intro">
+          <h3>打造扛得住的MySQL数据库架构</h3>
+          <p>面面俱到讲解影响MySQL性能的各个因素，让你将MySQL架构了然于胸。</p>
+        </div>
+        <div class="content-item-bottom">
+          <span class="pull-left color-red">￥199.00</span>
+          <span class="pull-right">446人在学</span>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+  <div class="content2">
+    <div class="title">
+      <span>免费好课</span>
+      <a href="#">更多&gt;</a>
+    </div>
+    <div class="content-item">
+      <div class="content-item-box">
+        <img src="img/6.jpg" width="100%" height="124px">
+        <div class="content-item-intro">
+          <h3>HTML+CSS基础课程</h3>
+          <p>8小时带领大家步步深入学习标签的基础知识，掌握各种样式的基本用法。</p>
+        </div>
+        <div class="content-item-bottom">
+          <span class="pull-left">468547人在学</span>
+        </div>
+      </div>
+    
+      
+      <div class="content-item-box">
+          <img src="img/7.jpg" width="100%" height="124px">
+          <div class="content-item-intro">
+            <h3>JavaScript入门篇</h3>
+            <p>做为一名Web攻城狮的必备技术，让您从糊涂到明白，快速认识JavaScript。</p>
+          </div>
+          <div class="content-item-bottom">
+            <span class="pull-left">320283人在学</span>
+          </div>
+        </div>
+      
+      
+      <div class="content-item-box">
+        <img src="img/8.jpg" width="100%" height="124px">
+        <div class="content-item-intro">
+          <h3>Java入门第一季</h3>
+          <p>从环境搭建、基础语法开始，带你入门</p>
+        </div>
+        <div class="content-item-bottom">
+          <span class="pull-right">442966人在学</span>
+        </div>
+      </div>
+    
+    
+      <div class="content-item-box">
+        <img src="img/9.jpg" width="100%" height="124px">
+        <div class="content-item-intro">
+          <h3>PHP入门篇</h3>
+          <p>3小时轻松帮您快速掌握PHP语言基础知识，为后续PHP进级课程学习打下基础。</p>
+        </div>
+        <div class="content-item-bottom">
+          <span class="pull-left">228187人在学</span>
+        </div>
+      </div>
+    
+    
+      <div class="content-item-box ok">
+        <img src="img/10.jpg" width="100%" height="124px">
+        <div class="content-item-intro">
+          <h3>Android攻城狮的第一门课（入门篇）</h3>
+          <p>想快速进入Android开发领域的程序猿的首选课程</p>
+        </div>
+        <div class="content-item-bottom">
+          <span class="pull-left">199803人在学</span>
+        </div>
+      </div>
+     </div> 
+  </div>
+</div>
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/muke.js"></script>
+</body>
+</html>
